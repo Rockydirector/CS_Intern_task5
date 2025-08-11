@@ -73,9 +73,12 @@ The goal of this task is to **capture live network packets** using Wireshark and
 
 
 ## Example Screenshots
-*(Include actual screenshots in a folder named `screenshots/`)*
 
-![Wireshark Capture Example](screenshots/sample.png)
+[Wireshark installation Example](screenshots/installation.png)
+
+[Wireshark interface Example](screenshots/wireshark1.png)
+
+[Wireshark Capture Example](screenshots/wireshark2.png)
 
 
 ## Conclusion
