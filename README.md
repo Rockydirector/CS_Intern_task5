@@ -12,8 +12,18 @@ The goal of this task is to **capture live network packets** using Wireshark and
 ## Steps Performed
 
 1. **Installed Wireshark**
-   - Downloaded from [https://www.wireshark.org/](https://www.wireshark.org/)  
-   - Installed with default settings.
+   - **Windows/macOS**: Downloaded from [https://www.wireshark.org/](https://www.wireshark.org/) and installed with default settings.
+   - **Ubuntu/Linux**: Installed using terminal commands:  
+     ```bash
+     sudo apt update
+     sudo apt install wireshark
+     ```
+     During installation, when prompted, select **Yes** to allow non-root users to capture packets.  
+     After installation, add your user to the `wireshark` group:  
+     ```bash
+     sudo usermod -aG wireshark $USER
+     ```
+     Then log out and log back in for the changes to take effect.
 
 2. **Started Packet Capture**
    - Selected the **active network interface** (Wi-Fi or Ethernet).
